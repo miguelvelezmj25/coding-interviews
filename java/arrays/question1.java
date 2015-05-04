@@ -3,11 +3,11 @@
 	can not use additional data structures?
 */
 
-public class question {
+public class question1 {
 
 	public static void main(String[] args) {
-		System.out.println(question.uniqueCharacters("miguel") + "\n"); // True
-		System.out.println(question.uniqueCharacters("miguelguel")); // False
+		System.out.println(question1.uniqueCharacters("miguel") + "\n"); // True
+		System.out.println(question1.uniqueCharacters("miguelguel")); // False
 	}
 
 	/**

@@ -3,12 +3,12 @@
 */
 import java.util.Arrays;
 
-public class question {
+public class question3 {
 
 	public static void main(String[] args) {
-		System.out.println(question.isPermutation("dog", "god"));
+		System.out.println(question3.isPermutation("dog", "god"));
         
-		System.out.println(question.isPermutation("dog ", "god"));
+		System.out.println(question3.isPermutation("dog ", "god"));
 	}
     
     /**
