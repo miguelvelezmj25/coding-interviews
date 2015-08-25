@@ -13,7 +13,7 @@ public class q1 {
 	public static int binarySearch(int[] array, int lower, int upper, int target) {
 		while(lower < upper) {
 			// Find the middle of the array
-			int middle = ((upper - lower) >> 1) + lower;
+			int middle = (upper + lower) >> 1;
 
 			if(target < array[middle]) {
 				return binarySearch(array, lower, middle, target);
