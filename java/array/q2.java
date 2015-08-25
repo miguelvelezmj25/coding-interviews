@@ -3,7 +3,7 @@
 */
 
 // TODO this question cannot be implemented in java since java strings are immutable
-public class question {
+public class q2 {
 
 	public static void main(String[] args) {
 		

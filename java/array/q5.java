@@ -4,11 +4,11 @@
     become smaller than the original string, your method should return the original string. You can
     assume the string has only upper and lower case letters (a-z).
 */
-public class question5 {
+public class q5 {
     
     public static void main(String[] args) {
-        System.out.println(question5.compressString("aabcccccaaa"));
-        System.out.println(question5.compressString("abc"));
+        System.out.println(q5.compressString("aabcccccaaa"));
+        System.out.println(q5.compressString("abc"));
     }
 
     public static String compressString(String str) {

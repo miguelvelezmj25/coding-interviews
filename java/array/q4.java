@@ -10,12 +10,12 @@
     Output: "Mr%20John%20Smith"
 */
 
-public class question4 {
+public class q4 {
 
 	public static void main(String[] args) {
         char[] string = "Mr John Smith     ".toCharArray();
         
-        question4.replaceSpace(string, 13);
+        q4.replaceSpace(string, 13);
         
         System.out.println(string);
 	}
