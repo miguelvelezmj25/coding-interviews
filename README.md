@@ -1,5 +1,7 @@
 # coding-interviews
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelvelezmj25/tkinter-tutorial/master/LICENSE)
+
 Solutions to coding interviews
 
 ==========
