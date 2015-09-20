@@ -5,7 +5,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Solution {	
+public class q1 {	
 
 	public static void main(String []argh) {
 		Map<String, Integer> phonebook  = new HashMap<String, Integer>();
