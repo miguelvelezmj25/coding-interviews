@@ -9,24 +9,24 @@ public class q1 {
 
 		System.out.println(binarySearch(a, 0, a.length - 1, 6));
 	}
-	
-	public static int binarySearch(int[] array, int lower, int upper, int target) {
-		while(lower < upper) {
-			// Find the middle of the array
-			int middle = (upper + lower) >> 1;
 
-			if(target < array[middle]) {
-				return binarySearch(array, lower, middle, target);
-			}		
-			else if(target > array[middle]) {
-				return binarySearch(array, middle + 1, upper, target);
-			}	
-			else {	
-				return middle;
-			}
-		
+	public static int binarySearch(int[] array, int low, int high, int value) {
+		if(low > high) {
+			return -1;
+		}
+		        
+		int middle = (high + low) >>> 1;
+			        
+		if(value < array[middle]) {
+			return binarySearch(array, low, middle - 1, value);
+		}
+		else if(value> array[middle]) {
+			return binarySearch(array, middle + 1, high, value);
+		}
+		else {
+			return middle;
 		}
 		
-		return -1;
 	}
-}	 
+
+}	
