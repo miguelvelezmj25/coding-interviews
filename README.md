@@ -4,7 +4,7 @@
 
 Solutions to coding interviews
 
-==========
+## License
 
 The MIT License (MIT)
 
